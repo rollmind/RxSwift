@@ -1520,6 +1520,10 @@
 		ECBBA5A11DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA5A01DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift */; };
 		ECBBA5A21DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA5A01DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift */; };
 		F31F35B01BB4FED800961002 /* UIStepper+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F35AF1BB4FED800961002 /* UIStepper+Rx.swift */; };
+		FFC4B57A2006EFDA00968124 /* DisposeBaseCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4B5792006EFDA00968124 /* DisposeBaseCommon.swift */; };
+		FFC4B57B2006EFE200968124 /* DisposeBaseCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4B5792006EFDA00968124 /* DisposeBaseCommon.swift */; };
+		FFC4B57C2006EFE200968124 /* DisposeBaseCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4B5792006EFDA00968124 /* DisposeBaseCommon.swift */; };
+		FFC4B57D2006EFE300968124 /* DisposeBaseCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4B5792006EFDA00968124 /* DisposeBaseCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2238,6 +2242,7 @@
 		ECBBA59D1DF8C0D400DDDC2E /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		ECBBA5A01DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+RxTests.swift"; sourceTree = "<group>"; };
 		F31F35AF1BB4FED800961002 /* UIStepper+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStepper+Rx.swift"; sourceTree = "<group>"; };
+		FFC4B5792006EFDA00968124 /* DisposeBaseCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBaseCommon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2461,6 +2466,7 @@
 				C8093C571B8A72BE0088E94D /* CompositeDisposable.swift */,
 				C8093C581B8A72BE0088E94D /* DisposeBag.swift */,
 				C8093C591B8A72BE0088E94D /* DisposeBase.swift */,
+				FFC4B5792006EFDA00968124 /* DisposeBaseCommon.swift */,
 				C84CC5661BDD08A500E06A64 /* SubscriptionDisposable.swift */,
 				C8093C5C1B8A72BE0088E94D /* NopDisposable.swift */,
 				CB883B3F1BE24C15000AC2EE /* RefCountDisposable.swift */,
@@ -4912,6 +4918,7 @@
 				C820A85D1EB4DA5A00D431BC /* Throttle.swift in Sources */,
 				C8BF34CC1C2E426800416CAE /* Platform.Darwin.swift in Sources */,
 				C8093CC61B8A72BE0088E94D /* Cancelable.swift in Sources */,
+				FFC4B57B2006EFE200968124 /* DisposeBaseCommon.swift in Sources */,
 				C8093CE81B8A72BE0088E94D /* ScheduledDisposable.swift in Sources */,
 				C8093CDC1B8A72BE0088E94D /* CompositeDisposable.swift in Sources */,
 				C8093D7E1B8A72BE0088E94D /* ObserverType.swift in Sources */,
@@ -5155,6 +5162,7 @@
 				C820A85C1EB4DA5A00D431BC /* Throttle.swift in Sources */,
 				C8093CC51B8A72BE0088E94D /* Cancelable.swift in Sources */,
 				C8093CE71B8A72BE0088E94D /* ScheduledDisposable.swift in Sources */,
+				FFC4B57A2006EFDA00968124 /* DisposeBaseCommon.swift in Sources */,
 				C8FA891C1C30412A00CD3A17 /* HistoricalSchedulerTimeConverter.swift in Sources */,
 				C8093CDB1B8A72BE0088E94D /* CompositeDisposable.swift in Sources */,
 				C8093D7D1B8A72BE0088E94D /* ObserverType.swift in Sources */,
@@ -5318,6 +5326,7 @@
 				C820A85F1EB4DA5A00D431BC /* Throttle.swift in Sources */,
 				C8BF34CE1C2E426800416CAE /* Platform.Darwin.swift in Sources */,
 				C8F0BFED1BBBFB8B001B112F /* Cancelable.swift in Sources */,
+				FFC4B57D2006EFE300968124 /* DisposeBaseCommon.swift in Sources */,
 				C8F0BFEE1BBBFB8B001B112F /* ScheduledDisposable.swift in Sources */,
 				C8F0BFF11BBBFB8B001B112F /* CompositeDisposable.swift in Sources */,
 				C8F0BFF21BBBFB8B001B112F /* ObserverType.swift in Sources */,
@@ -5693,6 +5702,7 @@
 				C820A85E1EB4DA5A00D431BC /* Throttle.swift in Sources */,
 				C8BF34CD1C2E426800416CAE /* Platform.Darwin.swift in Sources */,
 				D2EBEAE01BB9B697003A27DC /* Event.swift in Sources */,
+				FFC4B57C2006EFE200968124 /* DisposeBaseCommon.swift in Sources */,
 				D2EBEB411BB9B6DE003A27DC /* PublishSubject.swift in Sources */,
 				D2EBEB431BB9B6DE003A27DC /* SubjectType.swift in Sources */,
 				D2EBEAF41BB9B6AE003A27DC /* DisposeBase.swift in Sources */,
